@@ -19,7 +19,7 @@ input:
     comPort: '/dev/tty.usbmodemFA1221'
     # Emit only locationevent, so no logout would be generated
     # useful to share location with other plugins, listening to 'location' event
-    @ without generating 'data.raw' event for Logagent
+    # without generating 'data.raw' event for Logagent
     emitOnlyLocationEvent: false
     # enable debug output
     debug: true
