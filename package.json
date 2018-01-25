@@ -1,0 +1,32 @@
+{
+  "name": "logagent-gps",
+  "version": "1.0.0",
+  "description": "Logagent plugin to get GPS position from GPS devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megastef/logagent-gps.git"
+  },
+  "keywords": [
+    "Logagent",
+    "GPS",
+    "IoT",
+    "Sematext",
+    "Serialport"
+  ],
+  "author": "Stefan Thies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/megastef/logagent-gps/issues"
+  },
+  "homepage": "https://github.com/megastef/logagent-gps#readme",
+  "dependencies": {
+    "fast-safe-stringify": "^2.0.2",
+    "gps": "^0.4.1",
+    "reverse-geocoding": "^2.0.0",
+    "serialport": "^6.0.4"
+  }
+}
