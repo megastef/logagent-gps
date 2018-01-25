@@ -1,6 +1,6 @@
 {
   "name": "logagent-gps",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Logagent plugin to get GPS position from GPS devices",
   "main": "index.js",
   "scripts": {
